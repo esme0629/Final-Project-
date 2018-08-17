@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="stylesheet" href="tastestyle.css">
+    <center> <h1 > Taste The Culture</h1> <center>
+    <center> <h2> Taste The Food Embrace The Culture </h2> <center>
+    <div class="tab">
+      <button class="tablinks" onclick="window.location.href='/Users/student/Desktop/Finalproject/hometaste.html'">Home</button>
+      <button class="tablinks" onclick="window.location.href='/Users/student/Desktop/Finalproject/maptaste.html'">Map</button>
+      <button class="tablinks" onclick="window.location.href='/Users/student/Desktop/Finalproject/festivaltaste.html'">Festival</button>
+      <button class="tablinks" onclick="window.location.href='/Users/student/Desktop/Finalproject/abouttaste.html'">About Us</button>
+    </div>
+    <div class="container1">
+      <img src = "https://www.hitexinternational.com/wp-content/uploads/2013/09/world-map-background-960.png">
+      <button class="btn1"><a href="#Asia">Asia</a></button>
+      <button class="btn2"><a href="#North America">North America</a></button>
+      <button class="btn4"><a href="#South America">South America</a></button>
+      <button class="btn5"><a href="#Europe">Europe</a></button>
+      <button class="btn6"><a href="#Africa">Africa</a></button>
+      <button class="btn7"><a href="#Australia">Australia</a></button>
+    </div>
+</head>
+
+<br>
+<br>
+<br>
+<br>
+<section id="Asia">
+<div class="Asia">
+  <h2> Asia: </h2>
+  <h3> South East Asia </h3>
+    <p>   </p>
+  <h3> South Asia </h3>
+  <h3> East Asia </h3>
+  <h3> Middle East </h3>
+
+  <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+<section id="North America">
+  <div class="North America">
+    <h2> North America </h2>
+    <h3> Canada </h3>
+    <h3> United States </h3>
+    <h3> Mexico </h3>
+
+  <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+<section id="South America">
+  <div class="South America">
+    <h2> South America </h2>
+    <h3> Caribbean North </h3>
+    <h3> Brazil </h3>
+    <h3> Andean West </h3>
+    <h3> Southern Cone </h3>
+
+    <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+<section id="Europe">
+  <div class="Europe">
+    <h2> Europe </h2>
+    <h3> Northern Europe  </h3>
+    <h3> Western Europe </h3>
+    <h3> Southern Europe </h3>
+    <h3> Eastern Europe </h3>
+
+    <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+<section id="Africa">
+  <div class="Africa">
+    <h2> Africa </h2>
+    <h3> Western Africa </h3>
+    <h3> Central Africa </h3>
+    <h3> Southern Africa </h3>
+    <h3> Eastern Africa </h3>
+
+    <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+<section id="Australia">
+  <div class="Australia">
+    <h2> Australia </h2>
+    <h3> Polynesia  </h3>
+    <h3> Australia </h3>
+
+
+
+    <body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+    <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 40|| document.documentElement.scrollTop > 40) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+
+
+
+
+
+
+</html>
