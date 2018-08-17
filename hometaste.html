@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="tastestyle.css">
+
+</head>
+
+
+<header>
+  <div class="title">
+    <h1>Taste the Culture</h1>
+    <center> <h2> Taste The Food, Embrace The Culture </h2> <center>
+
+
+  </div>
+</header>
+
+
+<body>
+
+  <div class="tab">
+    <button class="tablinks" onclick="window.location.href='/Users/student/Desktop/ttc/hometaste.html'">Home</button>
+    <button class="tablinks" onclick="window.location.href='/Users/student/Desktop/ttc/maptaste.html'">Map</button>
+    <button class="tablinks" onclick="window.location.href='/Users/student/Desktop/ttc/festivaltaste.html'">Festival</button>
+    <button class="tablinks" onclick="window.location.href='/Users/student/Desktop/ttc/abouttaste.html'">About Us</button>
+  </div>
+
+<center>
+<div class="container">
+  <div class="mySlides">
+    <img src="http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/5b/gd/p05bgdd2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="http://tasmich.org/wp-content/uploads/2016/04/Turkish-Ramadan-Food-icli-kofte-meatball-falafel-1280x640.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/17/lh/p017lhrv.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/3l/2f/p03l2fkb.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/4s/6j/p04s6jkr.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="https://b.zmtcdn.com/data/pictures/8/18615258/7f0266cb749a7df1bcbe748602acff84_featured_v2.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/5b/gd/p05bgdd2.jpg" style="width:100%" onclick="currentSlide(1)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://tasmich.org/wp-content/uploads/2016/04/Turkish-Ramadan-Food-icli-kofte-meatball-falafel-1280x640.jpg" style="width:100%" onclick="currentSlide(2)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/17/lh/p017lhrv.jpg" style="width:100%" onclick="currentSlide(3)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/3l/2f/p03l2fkb.jpg" style="width:100%" onclick="currentSlide(4)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/4s/6j/p04s6jkr.jpg" style="width:100%" onclick="currentSlide(5)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://b.zmtcdn.com/data/pictures/8/18615258/7f0266cb749a7df1bcbe748602acff84_featured_v2.jpg" style="width:100%" onclick="currentSlide(6)" >
+    </div>
+  </div>
+</div>
+
+
+</center>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+</body>
