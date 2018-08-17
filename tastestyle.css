@@ -1,0 +1,244 @@
+
+
+h1 {
+    color: #FFC300;
+
+
+    font-family: monospace;
+    font-size: 40px;
+
+
+}
+
+h2 {
+    font-family: arial;
+    font-size: 15px;
+    color: #FFC300;
+}
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+/*The buttons on a map*/
+.container1 {
+    position: relative;
+    width: 75%;
+    max-width: 300px;
+}
+.container1 img {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+/*ASIA*/
+.container1 .btn1 {
+    position: absolute;
+    top: 100%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: Transparent;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+
+}
+
+.container1 .btn1:hover {
+    background-color: white;
+}
+
+/*North America*/
+.container1 .btn2 {
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: Transparent;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+
+}
+
+.container1 .btn2:hover {
+    background-color: gray;
+}
+
+/*S.A.*/
+.container1 .btn4 {
+    position: absolute;
+    top: 136%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: Transparent;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+
+}
+
+.container1 .btn4:hover {
+    background-color: gray;
+}
+
+/*Europe*/
+.container1 .btn5 {
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: Transparent;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+
+}
+
+.container1 .btn5:hover {
+    background-color: gray;
+}
+/*Africa*/
+.container1 .btn6 {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: Transparent;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+
+}
+
+.container1 .btn6:hover {
+    background-color: gray;
+}
+
+/*Australia*/
+.container1 .btn7 {
+    position: absolute;
+    top: 143%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: Transparent;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+
+}
+
+.container1 .btn7:hover {
+    background-color: gray;
+}
+/* This is where the button css ends!!!!!*/
+
+/*THIS IS WHERE THE TAB STARTS*/
+* {box-sizing: border-box}
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+    overflow:
+    border: 10px solid white;
+    background-color: #D6EAF8;
+    color:white ;
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 6px 6px;
+    transition: 0.2s;
+    font-size: 17px;
+    font-family: monospace;
+
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #D6EAF8  ;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color:#EC7063;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid ;
+    border-top: none;
+}
+
+body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+    }
+/*THIS IS WHERE THE BACK TO THE TOP BUTTON STARTS*/
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: #D6EAF8;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 4px;
+    }
+
+    #myBtn:hover {
+      background-color: #555;
+    }
+
+
+
+
+
+
+
+
+</head>
+<body>
